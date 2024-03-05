@@ -14,8 +14,8 @@ export FEISHU_WEBHOOK="<your_feishu_webhook>" # Optional
 
 ```bash
 # Execute once
-python main.py
+python3 main.py
 
 # It is executed every 24 hours
-python main.py -i 24
+python3 main.py -i 24
 ```

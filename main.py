@@ -56,8 +56,8 @@ def checkin():
 
 def schedule(interval):
     while True:
-        time.sleep(interval)
         checkin()
+        time.sleep(interval)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
